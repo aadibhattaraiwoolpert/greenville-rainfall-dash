@@ -68,7 +68,7 @@
 </script>
 
 <div class="container">
-	<h1 class="title">Wade's Rainfall Dashboard</h1>
+	<h1 class="title">Mr. Wade's Rainfall Dashboard</h1>
 
 	<Legend></Legend>
 
