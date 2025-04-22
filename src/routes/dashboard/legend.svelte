@@ -1,7 +1,7 @@
 <script>
 	// Example data for the legend
 	const legendItems = [
-		{ label: '0 - 2yr', color: '#c0c0c0' },
+		{ label: '0 - 2yr', color: '#00649a' },
 		{ label: '2 - 5yr', color: '#00ff00' },
 		{ label: '5 - 10yr', color: '#008000' },
 		{ label: '10 - 25yr', color: '#ffff00' },

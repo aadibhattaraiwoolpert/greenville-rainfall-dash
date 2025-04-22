@@ -28,7 +28,7 @@
 		margin: 0 0.5rem;
 		padding: 1rem;
 
-		background: #004367;
+		background: #00649a;
 		border-radius: 4px;
 	}
 
