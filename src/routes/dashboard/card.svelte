@@ -4,7 +4,7 @@
     export let amount = 0.0;
     export let unit = 'in.';
     export let title = 'Rainfall 1-hr';
-    export let color = '#00649a';
+    export let color = '#b30000';
 </script>
 
 <div class="card" style="background-color: #{color};">
