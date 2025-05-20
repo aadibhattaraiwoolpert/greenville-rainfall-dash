@@ -4,13 +4,13 @@
 	export let amount = 0.0;
 	export let unit = 'in.';
 	export let title = 'Rainfall 1-hr';
-	export let colorHex = '00649a'; // Default color if not provided
 </script>
 
-<div class="card" style="background-color: #{colorHex};">
+<div class="card">
 	<div class="title">
 		<span class="title-text"> {title}</span>
 	</div>
+
 	<div class="content">
 		<div class="rain-amount">
 			<div><RainIcon size="30"></RainIcon></div>
@@ -27,6 +27,8 @@
 		flex: 1;
 		margin: 0 0.5rem;
 		padding: 1rem;
+
+		background: #00649a;
 		border-radius: 4px;
 	}
 

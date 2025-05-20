@@ -11,10 +11,10 @@
 		<h1 class="card-title">{data.SiteName}</h1>
 
 		<div class="cards">
-			<Card amount={data.Rainfall_1h} title="Rainfall 1-hr" colorHex={data.Rainfall_1h_color}></Card>
-			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr" colorHex={data.Rainfall_3h_color}></Card>
-			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr" colorHex={data.Rainfall_6h_color}></Card>
-			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr" colorHex={data.Rainfall_12h_color}></Card>
+			<Card amount={data.Rainfall_1h} title="Rainfall 1-hr"></Card>
+			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr"></Card>
+			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr"></Card>
+			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr"></Card>
 		</div>
 	</div>
 {/if}
