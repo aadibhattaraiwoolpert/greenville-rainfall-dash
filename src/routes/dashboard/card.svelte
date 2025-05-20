@@ -1,66 +1,70 @@
 <script>
-    import RainIcon from './rain-icon.svelte';
+	import RainIcon from './rain-icon.svelte';
 
-    export let amount = 0.0;
-    export let unit = 'in.';
-    export let title = 'Rainfall 1-hr';
-    export let color = '#b30000';
+	export let amount = 0.0;
+	export let unit = 'in.';
+	export let title = 'Rainfall 1-hr';
 </script>
 
-<div class="card" style="background-color: #{color};">
-    <div class="title">
-        <span class="title-text"> {title}</span>
-    </div>
+<div class="card">
+	<div class="title">
+		<span class="title-text"> {title}</span>
+	</div>
 
-    <div class="content">
-        <div class="rain-amount">
-            <div><RainIcon size="30"></RainIcon></div>
-            <div class="amount-text">{amount} {unit}</div>
-        </div>
-    </div>
+	<div class="content">
+		<div class="rain-amount">
+			<div><RainIcon size="30"></RainIcon></div>
+			<div class="amount-text">{amount} {unit}</div>
+		</div>
+	</div>
 </div>
 
 <style>
-    .card {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        margin: 0 0.5rem;
-        padding: 1rem;
-        border-radius: 4px;
-        /* Removed background-color from here */
-    }
+	.card {
+		display: flex;
+		flex-direction: column;
 
-    .title {
-        border-bottom-color: #ccc;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        padding: 0.3rem 0;
-        margin-bottom: 1rem;
-    }
+		flex: 1;
+		margin: 0 0.5rem;
+		padding: 1rem;
 
-    .title-text {
-        font-size: 1rem;
-        font-weight: 400;
-    }
+		background: #00649a;
+		border-radius: 4px;
+	}
 
-    .content {
-        padding: 0.25rem 0rem;
-    }
+	.title {
+		border-bottom-color: #ccc;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		padding: 0.3rem 0;
+		margin-bottom: 1rem;
+	}
 
-    .rain-amount {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 0.5rem;
-        align-items: center;
-        width: 100%;
-        gap: 0.5rem;
-    }
+	.title-text {
+		font-size: 1rem;
+		font-weight: 400;
+	}
 
-    .amount-text {
-        font-size: 2rem;
-        padding-right: 0.5rem;
-    }
+	.content {
+		padding: 0.25rem 0rem;
+	}
+
+	.rain-amount {
+		flex: 1;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		margin: 0 0.5rem;
+		align-items: center;
+		width: 100%;
+
+		gap: 0.5rem;
+	}
+
+	.amount-text {
+		font-size: 2rem;
+		padding-right: 0.5rem;
+	}
 </style>
