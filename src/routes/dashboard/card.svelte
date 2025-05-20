@@ -4,7 +4,7 @@
 	export let amount = 0.0;
 	export let unit = 'in.';
 	export let title = 'Rainfall 1-hr';
-	export let cardColor = '#0064ff'; // Default color if not provided
+	export let cardColor = '#D7E1EE'; // Default color if not provided
 </script>
 
 <div class="card" style="background-color: {cardColor};">

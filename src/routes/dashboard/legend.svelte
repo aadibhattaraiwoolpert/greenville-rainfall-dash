@@ -1,15 +1,18 @@
 <script>
-	// Example data for the legend
-	const legendItems = [
-		{ label: '0 - 2yr', color: '#00649a' },
-		{ label: '2 - 5yr', color: '#00ff00' },
-		{ label: '5 - 10yr', color: '#008000' },
-		{ label: '10 - 25yr', color: '#ffff00' },
-		{ label: '25 - 50yr', color: '#ffcc00' },
-		{ label: '50 - 100yr', color: '#ff6600' },
-		{ label: '100 - 500yr', color: '#ff0000' },
-		{ label: '> 500yr', color: '#ff00ff' }
-	];
+    // Example data for the legend
+    const legendItems = [
+        { label: '<1 yr', color: '#00649a' }, // Light Blue
+        { label: '1 yr', color: '#A99BBE' },  // Light Purple
+        { label: '2 yr', color: '#8067A1' },  // Medium Purple
+        { label: '5 yr', color: '#A64D79' },  // Darker Purple/Red
+        { label: '10 yr', color: '#D94A4A' }, // Bright Red
+        { label: '25 yr', color: '#F0742B' }, // Red-Orange
+        { label: '50 yr', color: '#F7A827' }, // Orange
+        { label: '100 yr', color: '#F7C52B' },// Yellow-Orange
+        { label: '200 yr', color: '#F7E22B' },// Yellow
+        { label: '500 yr', color: '#FFFF7F' },// Light Yellow
+        { label: '1000 yr', color: '#FFFFBF'} // Very Light Yellow
+    ];
 </script>
 
 <div class="legend-container">
