@@ -18,8 +18,8 @@
 <div class="legend-container">
 	<div class="legend-title">Legend</div>
 	<div class="legend-description">
-		Tiles will change color when accumulated rainfall for the indicated time period falls within the
-		following frequency ranges:
+		The tiles will change color to indicate the return period of an n-hour storm over the
+		last 7 days. Following color represents the exceedance frequency of the storm:
 	</div>
 	<div class="legend-items">
 		{#each legendItems as item}
