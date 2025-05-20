@@ -13,7 +13,7 @@
 			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr" cardColor={data.Rainfall_3h_Color}></Card>
 			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr" cardColor={data.Rainfall_6h_Color}></Card>
 			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr" cardColor={data.Rainfall_12h_Color}></Card>
-			<Card amount={data.Rainfal_24h} title="Rainfall 24-hr" cardColor={data.Rainfal_24h_Color}></Card>
+			<Card amount={data.Rainfall_24h} title="Rainfall 24-hr" cardColor={data.Rainfal_24h_Color}></Card>
 		</div>
 	</div>
 {/if}
