@@ -1,9 +1,7 @@
 <script>
 	export let data;
 
-	import rainIcon from '$lib/assets/rain.svg?raw';
 	import Card from './card.svelte';
-	import RainIcon from './rain-icon.svelte';
 </script>
 
 {#if data}
@@ -11,10 +9,10 @@
 		<h1 class="card-title">{data.SiteName}</h1>
 
 		<div class="cards">
-			<Card amount={data.Rainfall_1h} title="Rainfall 1-hr"></Card>
-			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr"></Card>
-			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr"></Card>
-			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr"></Card>
+			<Card amount={data.Rainfall_1h} title="Rainfall 1-hr" cardColor={data.Rainfall_1h_Color}></Card>
+			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr" cardColor={data.Rainfall_3h_Color}></Card>
+			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr" cardColor={data.Rainfall_6h_Color}></Card>
+			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr" cardColor={data.Rainfall_12h_Color}></Card>
 		</div>
 	</div>
 {/if}

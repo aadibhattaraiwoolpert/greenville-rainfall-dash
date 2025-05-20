@@ -4,9 +4,10 @@
 	export let amount = 0.0;
 	export let unit = 'in.';
 	export let title = 'Rainfall 1-hr';
+	export let cardColor = '#00649a'; // Default color if not provided
 </script>
 
-<div class="card">
+<div class="card" style="background-color: {cardColor};">
 	<div class="title">
 		<span class="title-text"> {title}</span>
 	</div>
@@ -28,7 +29,7 @@
 		margin: 0 0.5rem;
 		padding: 1rem;
 
-		background: #00649a;
+		/* background is now set dynamically */
 		border-radius: 4px;
 	}
 
