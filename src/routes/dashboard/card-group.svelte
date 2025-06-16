@@ -9,11 +9,11 @@
 		<h1 class="card-title">{data.SiteName}</h1>
 
 		<div class="cards">
-			<Card amount={data.Rainfall_1h} title="Rainfall 1-hr" cardColor={data.Rainfall_1h_Color}></Card>
-			<Card amount={data.Rainfall_3h} title="Rainfall 3-hr" cardColor={data.Rainfall_3h_Color}></Card>
-			<Card amount={data.Rainfall_6h} title="Rainfall 6-hr" cardColor={data.Rainfall_6h_Color}></Card>
-			<Card amount={data.Rainfall_12h} title="Rainfall 12-hr" cardColor={data.Rainfall_12h_Color}></Card>
-			<Card amount={data.Rainfall_24h} title="Rainfall 24-hr" cardColor={data.Rainfall_24h_Color}></Card>
+			<Card amount={data.Rainfall_1h} title={"Rainfall 1-hr (" + data.Timing_1h + ")"} cardColor={data.Rainfall_1h_Color}></Card>
+			<Card amount={data.Rainfall_3h} title={"Rainfall 3-hr (" + data.Timing_3h + ")"} cardColor={data.Rainfall_3h_Color}></Card>
+			<Card amount={data.Rainfall_6h} title={"Rainfall 6-hr (" + data.Timing_6h + ")"} cardColor={data.Rainfall_6h_Color}></Card>
+			<Card amount={data.Rainfall_12h} title={"Rainfall 12-hr (" + data.Timing_12h + ")"} cardColor={data.Rainfall_12h_Color}></Card>
+			<Card amount={data.Rainfall_24h} title={"Rainfall 24-hr (" + data.Timing_24h + ")"} cardColor={data.Rainfall_24h_Color}></Card>
 		</div>
 	</div>
 {/if}

@@ -5,7 +5,7 @@
 
 	const API_KEY = import.meta.env.VITE_API_KEY;
 	const SHEET_ID = '1r4C0aDzq21_Nl9szpqd_TweC2785EY98Jt8GaOC0am4';
-	const SHEET_RANGE = 'Rainfall Data!A1:K100'; //For 5 cards
+	const SHEET_RANGE = 'Rainfall Data!A1:P100'; //For 5 cards
 
 	let data = [];
 
