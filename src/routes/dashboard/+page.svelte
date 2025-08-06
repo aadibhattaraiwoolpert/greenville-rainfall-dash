@@ -4,7 +4,7 @@
 	import CardGroup from './card-group.svelte';
 
 	const API_KEY = import.meta.env.VITE_API_KEY;
-	const SHEET_ID = '1KrryzzQF33XR2FRKOboJHnlJvTH27qGB8vIAEFOIOi8'; //new spreadsheet
+	const SHEET_ID = '19y0EK2ctJvwn4YTsY5KUCXySci6MYmErJ6Op1zz_izc'; //new spreadsheet
 	const SHEET_RANGE = 'Rainfall Data!A1:P100'; //For 5 cards
 
 	let data = [];
