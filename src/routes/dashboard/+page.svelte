@@ -68,7 +68,7 @@
 </script>
 
 <div class="container">
-	<h1 class="title">Greenville's Rainfall Dashboard</h1>
+	<h1 class="title">Greenville County Rainfall Dashboard</h1>
 
 	<Legend></Legend>
 
